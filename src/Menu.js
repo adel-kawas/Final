@@ -6,16 +6,16 @@ let Menu3 = [];
 // let Menu6 = [];
 
 //Aarayes
-Menu1[0] = { name: 'Kafta', price: 12, hot: false };
-Menu1[1] = { name: 'Lahmeh', price: 13, hot: false };
-Menu1[2] = { name: 'Turkey & Cheese', price: 13, hot: false };
-Menu1[3] = { name: 'Soujouk', price: 13, hot: true };
-Menu1[4] = { name: 'Eggs', price: 13, hot: false };
-Menu1[5] = { name: 'Spinich with Feta Cheese', price: 13, hot: false };
-Menu1[6] = { name: 'Zaatar', price: 12, hot: false };
-// Menu1[7] = { name: 'Beef Teriyaki', price: 13, hot: false };
-// Menu1[8] = { name: 'Spicy Chicken Teriyaki', price: 13, hot: true };
-// Menu1[9] = { name: 'Tofu Teriyaki', price: 12, hot: false };
+Menu1[0] = { name: 'Kafta', price: 3.90, hot: false };
+Menu1[1] = { name: 'Lahmeh(Meat)', price: 3.90, hot: false };
+Menu1[2] = { name: 'Soujouk', price: 3.90, hot: true };
+Menu1[3] = { name: 'Chicken', price: 3.70, hot: false };
+Menu1[4] = { name: 'Cheese & Turkey', price: 3.50, hot: false };
+Menu1[5] = { name: 'Spinich with Feta Cheese', price: 3.25, hot: false };
+Menu1[6] = { name: 'Cheese', price: 2.40, hot: false };
+Menu1[7] = { name: 'Keshik', price: 2.00, hot: false };
+Menu1[8] = { name: 'Zaatar', price: 1.00, hot: false };
+Menu1[9] = { name: 'Egg', price: 2.00, hot: false };
 // Menu1[10] = { name: 'Chicken Katsu', price: 13, hot: false };
 // Menu1[11] = { name: 'Chicken Curry', price: 13, hot: false };
 // Menu1[12] = { name: 'Beef Curry', price: 13, hot: false };
@@ -31,8 +31,8 @@ Menu1[6] = { name: 'Zaatar', price: 12, hot: false };
 // Menu1[22] = { name: 'Combo Fried Rice', price: 15, hot: false };
 
 //Salad
-Menu2[0] = { name: 'Fatouch', price: 16, hot: false };
-Menu2[1] = { name: 'Tabouleh', price: 17, hot: false };
+Menu2[0] = { name: 'Fatouch', price: 2, hot: false };
+Menu2[1] = { name: 'Tabouleh', price: 3, hot: false };
 // Menu2[2] = { name: 'Spicy Chicken Bento', price: 17, hot: true };
 // Menu2[3] = { name: 'Katsu Bento', price: 17, hot: false };
 // Menu2[4] = { name: 'Salmon Bento', price: 18, hot: false };
@@ -42,15 +42,15 @@ Menu2[1] = { name: 'Tabouleh', price: 17, hot: false };
 // Menu2[8] = { name: 'Sesame Chicken Bento', price: 17, hot: false };
 // Menu2[9] = { name: 'Orange Chicken Bento', price: 17, hot: false };
 
-//Hot Stone
-Menu3[0] = { name: 'Laban Eran', price: 16, hot: false };
-Menu3[1] = { name: 'Balkis', price: 24, hot: false };
-Menu3[2] = { name: 'Pepsi', price: 19, hot: false };
-Menu3[3] = { name: 'Seven Up', price: 17, hot: true };
-Menu3[4] = { name: 'Lebanese Coffee', price: 15, hot: false };
-Menu3[5] = { name: 'HotChocolate', price: 15, hot: false };
-Menu3[6] = { name: 'American Coffee', price: 15, hot: false };
-Menu3[7] = { name: 'Tea', price: 15, hot: false };
+//Drinks
+Menu3[0] = { name: 'Laban Eran', price: 1, hot: false };
+Menu3[1] = { name: 'Balkis', price: 1.80, hot: false };
+Menu3[2] = { name: 'Pepsi', price: 0.30, hot: false };
+Menu3[3] = { name: 'Seven Up', price: 0.30, hot: false };
+Menu3[4] = { name: 'Lebanese Coffee', price: 1.25, hot: false };
+Menu3[5] = { name: 'Tea', price: 15, hot: false };
+Menu3[6] = { name: 'Cappucino', price: 1.75, hot: false };
+Menu3[7] = { name: 'Water', price: 0.30, hot: false };
 
 
 

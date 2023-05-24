@@ -162,7 +162,7 @@
   text-align: left;
 }
 .menu-item-price{
-  width: 30%;
+  width: 20%;
   text-align: left;
   padding-left: calc(16px - 1vw);
 }
@@ -199,6 +199,12 @@
   color: antiquewhite;
 }
 
+  
+@media only screen and (max-width: 769px) {
+ .spicy{
+max-width: 20px;
+ }
+}
 
 @keyframes App-logo-spin {
   from {

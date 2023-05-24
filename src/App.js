@@ -1,10 +1,11 @@
 import './App.css';
 import { useState } from "react";
-import phom1 from './images/main3.jpg';
-import phom2 from './images/Alt3.jpg';
-import phom3 from './images/Alt1.jpg';
-import phom4 from './images/main2.jpg';
-import phom5 from './images/Alt4.jpg';
+import phom1 from './images/Banner.jpeg';
+import phom2 from './images/Sandwiche.jpeg';
+import phom3 from './images/Sandwich1.jpeg';
+import phom4 from './images/Outside1.jpeg';
+import phom5 from './images/FooterImg.jpeg';
+// import spicy from './images/spicy.svg'
 
 import {Menu1, Menu2, Menu3,} from './Menu.js';
 
@@ -22,7 +23,7 @@ function App() {
         />
         <div className="content-container">
           <div>
-            <h1 className="center-logo">Welcome to</h1>
+            <h1 className="center-logo">Welcome</h1>
             <h1 className="center-logo"> Aarayes El Hamra</h1>
           </div>
         </div>
@@ -43,7 +44,7 @@ function App() {
         />
         <div className="content-container">
           <div style={{width: '100%'}}>
-            <h1 className="center-logo menu">Explore The Menu</h1>
+            <h1 className="center-logo menu">Our Menu</h1>
             <div className="menubutton-section">
               <button className="menubutton" onClick={(event) => {setmenu(1)}}> Aarayes </button>
               <button className="menubutton" onClick={(event) => {setmenu(2)}}> Salad </button>
@@ -65,7 +66,7 @@ function App() {
         <div></div>
         <h1 className='center-logo sub'>{menuHeaders[menu]}</h1>
         <div className="Menu-Section" style={{}}>
-          {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p ><img className='spicy' src="https://img.icons8.com/ios/50/chili-pepper.png" alt="chili-pepper"/></p>} </div></div>})}
           {menu === 2 && Menu2.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
           {menu === 3 && Menu3.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
           {/* {menu === 4 && Menu4.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
@@ -96,10 +97,10 @@ function App() {
             src={phom5}
             alt="Background"
             />
-            <b>
+            <p>
               <p>Contact:</p> 	
               <p>Phone: (70)000-000 </p> 
-            </b>
+            </p>
             {/* <a href="https://www.doordash.com/store/u-dupbop-seattle-1034523/" target="_blank" rel="noopener noreferrer"><button className="orderButton">Order Online</button></a> */}
           </div>
           <div className="InfoSection">
