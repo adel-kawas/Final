@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-Section {
+  background-color: antiquewhite;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+.App-Section.info{
+  border-top: 3px solid black;
+  height: auto;
+  min-height: 100vh;
+}
+
+
+.Menu-Section {
+  height: fit-content;
+  position: relative;
+  padding: 0;
+  margin: auto;
+  padding-bottom: calc(5vw + 10px);
+  width: 95vw;
+  text-align: center;
+}
+
+.App-SectionC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+
+}
+
+.mainbackground-image {
+  /* Set the desired width and height for the background image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.mainbackground-image.two {
+  width: 50%;
+}
+
+
+.content-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.center-logo{
+  background-color: white;
+  font-size: clamp(38px, 3.8vw, 1000px);
+  padding-right: clamp(15px, 1vw, 1000px);
+  padding-left: clamp(15px, 1vw, 1000px);
+  padding-top: clamp(1px, .2vw, 1000px);
+  padding-bottom: clamp(1px, .5vw, 1000px);
+  font-weight: bold;
+  text-align: center;
+}
+.center-logo.menu{
+  font-size: clamp(50px, 5vw, 1000px);
+  background-color: transparent;
+  text-decoration: underline;
+  color: white;
+}
+.center-logo.sub{
+  font-size: clamp(30px, 4vw, 1000px);
+  padding-top: 3vw;
+  background-color: transparent;
+  color: black;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.center-sublogo{
+  color: white;
+  width: fit-content;
+  font-size: clamp(25px, 2.5vw, 1000px);
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menubutton-section{
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menubutton{
+  font-size: clamp(33px, 2.8vw, 1000px);
+  font-weight: bold;
+  color: white;
+  border: 5px solid white;
+  background-color: transparent;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: clamp(1px, 2vw, 1000px);
+  width: 30%;
+  min-width: 275px;
+  min-height: 10vh;
+}
+.menubutton:hover{
+  border: 5px solid black;
+}
+.menubutton:focus{
+  border: 8px solid black;
+  border-style: double;
+}
+
+.menu-item{
+    /* Consider setting bottom border */
+  font-size: clamp(20px, 2.5vw, 1000px);
+  width: 40vw;
+  min-height: calc(5vw + 36px);
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-item-name{
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+}
+.menu-item-price{
+  width: 30%;
+  text-align: left;
+  padding-left: calc(16px - 1vw);
+}
+
+.InfoSection{
+  width: 33.3%;
+  min-width: 300px;
+  display: block;
+  text-align: center;
+  font-size: clamp(16px, 1.8vw, 1000px);;
+}
+
+.info-image{
+  width: 23vw;
+  min-width: 150px;
+  height: 23vw;
+  min-height: 150px;
+  border: 7px solid black;
+  border-style: double;
+}
+
+.orderButton{
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: clamp(18px, 1.8vw, 1000px);
+  font-weight: bold;
+  height: 5vw;
+  min-height: 60px;
+  width: 15vw;
+  min-width: 180px;
+}
+.orderButton:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
