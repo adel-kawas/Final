@@ -27,6 +27,7 @@
 .App-link {
   color: #61dafb;
 }
+
 .App-Section {
   background-color: antiquewhite;
   height: 100vh;
@@ -86,6 +87,7 @@
 
 .center-logo{
   background-color: white;
+  opacity: 0.8;
   font-size: clamp(38px, 3.8vw, 1000px);
   padding-right: clamp(15px, 1vw, 1000px);
   padding-left: clamp(15px, 1vw, 1000px);

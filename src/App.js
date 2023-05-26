@@ -66,7 +66,7 @@ function App() {
         <div></div>
         <h1 className='center-logo sub'>{menuHeaders[menu]}</h1>
         <div className="Menu-Section" style={{}}>
-          {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p ><img className='spicy' src="https://img.icons8.com/ios/50/chili-pepper.png" alt="chili-pepper"/></p>} </div></div>})}
+          {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p ><img  src="https://img.icons8.com/ios/50/chili-pepper.png" alt="chili-pepper"/></p>} </div></div>})}
           {menu === 2 && Menu2.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
           {menu === 3 && Menu3.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
           {/* {menu === 4 && Menu4.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
